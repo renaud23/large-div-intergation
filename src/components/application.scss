@@ -1,0 +1,20 @@
+.application {
+  background-color: palegreen;
+  height: 90vh;
+  padding-bottom: 50px;
+
+  .paper-table {
+    padding: 50px 80px;
+    
+
+    .table-container {
+      z-index: 0;
+      width: 400px;
+      height: 200px;
+
+      overflow: hidden;
+      resize: both;
+      background-color: gainsboro;
+    }
+  }
+}
