@@ -1,20 +1,19 @@
 import React from "react";
-import { ReactLargeTableEditable } from "react-scrollable-div";
+import { ReactLargeTable } from "react-scrollable-div";
 import { generatePersonData } from "./random-data";
-import "./excel-theme.scss";
+import "./light-theme.scss";
 
 const NR_ROWS = 10000;
 
 function Table() {
   return (
-    <ReactLargeTableEditable
+    <ReactLargeTable
       data={generatePersonData(NR_ROWS)}
       headerHeight={50}
-      className="excel-theme"
-      rowNums={true}
-      getValue={({ value }) => value}
-      setValue={(o, value) => ({ ...o, value })}
-      treeSize={true}
+      className="light-theme"
+      rowNums={false}
+      rowHeight={40}
+      treeSize={false}
     />
   );
 }
