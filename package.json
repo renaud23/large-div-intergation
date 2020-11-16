@@ -1,7 +1,7 @@
 {
   "name": "large-table-integration",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://renaud23.github.io/large-div-intergation/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -13,7 +13,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "3.4.4",
-    "react-scrollable-div": "^0.2.0",
+    "react-scrollable-div": "^0.3.0",
     "recoil": "^0.0.13"
   },
   "scripts": {
