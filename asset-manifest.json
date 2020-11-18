@@ -5,17 +5,17 @@
     "main.js.map": "/large-div-intergation/static/js/main.bd43fa98.chunk.js.map",
     "runtime-main.js": "/large-div-intergation/static/js/runtime-main.e63500e8.js",
     "runtime-main.js.map": "/large-div-intergation/static/js/runtime-main.e63500e8.js.map",
-    "static/js/2.919d15c4.chunk.js": "/large-div-intergation/static/js/2.919d15c4.chunk.js",
-    "static/js/2.919d15c4.chunk.js.map": "/large-div-intergation/static/js/2.919d15c4.chunk.js.map",
+    "static/js/2.0a460b5c.chunk.js": "/large-div-intergation/static/js/2.0a460b5c.chunk.js",
+    "static/js/2.0a460b5c.chunk.js.map": "/large-div-intergation/static/js/2.0a460b5c.chunk.js.map",
     "index.html": "/large-div-intergation/index.html",
-    "precache-manifest.53ee65f26333c6616312601c64ea5e34.js": "/large-div-intergation/precache-manifest.53ee65f26333c6616312601c64ea5e34.js",
+    "precache-manifest.babc269b740a5aba4a68dd2887455e6d.js": "/large-div-intergation/precache-manifest.babc269b740a5aba4a68dd2887455e6d.js",
     "service-worker.js": "/large-div-intergation/service-worker.js",
     "static/css/main.66f0e674.chunk.css.map": "/large-div-intergation/static/css/main.66f0e674.chunk.css.map",
-    "static/js/2.919d15c4.chunk.js.LICENSE.txt": "/large-div-intergation/static/js/2.919d15c4.chunk.js.LICENSE.txt"
+    "static/js/2.0a460b5c.chunk.js.LICENSE.txt": "/large-div-intergation/static/js/2.0a460b5c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e63500e8.js",
-    "static/js/2.919d15c4.chunk.js",
+    "static/js/2.0a460b5c.chunk.js",
     "static/css/main.66f0e674.chunk.css",
     "static/js/main.bd43fa98.chunk.js"
   ]
