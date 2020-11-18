@@ -35,7 +35,7 @@ function ApplicationBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6">News</Typography>
+          <Typography variant="h6">Test v0.3.2</Typography>
           <Button color="inherit" className="login">
             Login
           </Button>
