@@ -9296,10 +9296,10 @@ react-scripts@3.4.4:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-scrollable-div@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/react-scrollable-div/-/react-scrollable-div-0.3.2.tgz#767add33b68d616b3604c0129c55bac575e02449"
-  integrity sha512-4UXOZuE+gVsVxWtCpc4RE2YM4yjnBzEGD8nxUtRQPZGIK82mA8dLgqeS8X0gzdBh2qXQ18+rp/M6sJS3tYuiJw==
+react-scrollable-div@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/react-scrollable-div/-/react-scrollable-div-0.3.3.tgz#64c40fe1e9d8ac833d70bc16a308a895bb58cfb1"
+  integrity sha512-oFO6AP5a17+zXqmqkz9OZ8bwQSg7enIkTVTm3f1HRObyhp80KiHwRmFqg9UdAXvnm35OLYDg0dbXt18rFelllQ==
   dependencies:
     "@testing-library/jest-dom" "^4.2.4"
     "@testing-library/react" "^9.3.2"

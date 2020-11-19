@@ -14,7 +14,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "3.4.4",
-    "react-scrollable-div": "^0.3.2",
+    "react-scrollable-div": "^0.3.3",
     "recoil": "^0.0.13"
   },
   "scripts": {
