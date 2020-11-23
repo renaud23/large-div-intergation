@@ -1,0 +1,46 @@
+.react-large-table-td {
+  .my-percent-bar {
+    position: relative;
+    width: 200px;
+    height: 32px;
+    border: solid black 1px;
+    background-color: slategray;
+
+    .bar {
+      display: inline-block;
+      border-radius: 0 6px 6px 0;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+      z-index: 0;
+      &.green {
+        background-color: springgreen;
+      }
+
+      &.red {
+        background-color: tomato;
+      }
+
+      &.orange {
+        background-color: orange;
+      }
+
+      &.blue {
+        background-color: skyblue;
+      }
+    }
+
+    .percent {
+      display: block;
+      line-height: 32px;
+      margin-left: 4px;
+      position: absolute;
+      z-index: 1;
+      &::after {
+        content: "%";
+      }
+    }
+  }
+}
