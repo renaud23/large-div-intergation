@@ -20,10 +20,9 @@ function PercentBar({ value }) {
     <div className="my-percent-bar" ref={containerEl}>
       <span
         className={classnames("bar", {
-          green: value > 75,
-          red: value <= 25,
-          orange: value > 25 && value <= 50,
-          blue: value > 50 && value <= 75,
+          red: value <= 33,
+          orange: value > 33 && value <= 66,
+          green: value > 66,
         })}
         style={{ width: (value * containerWidth) / 100 }}
       ></span>

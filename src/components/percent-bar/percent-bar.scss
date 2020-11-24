@@ -1,14 +1,16 @@
+$line-height: 24px;
+
 .react-large-table-td {
   .my-percent-bar {
     position: relative;
-    width: 200px;
-    height: 32px;
-    border: solid black 1px;
-    background-color: slategray;
+    width: 80px;
+    height: $line-height;
+    border: solid lavender 1px;
+    background-color: snow;
 
     .bar {
       display: inline-block;
-      border-radius: 0 6px 6px 0;
+    //   border-radius: 0 6px 6px 0;
       height: 100%;
       position: absolute;
       top: 0;
@@ -34,13 +36,21 @@
 
     .percent {
       display: block;
-      line-height: 32px;
+      line-height: $line-height;
       margin-left: 4px;
       position: absolute;
+      text-align: center;
+      width: 100%;
       z-index: 1;
       &::after {
         content: "%";
       }
     }
   }
+}
+
+
+.flag {
+    width: 30px;
+    height: 20px;
 }

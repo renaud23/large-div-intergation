@@ -7,10 +7,10 @@ export function getPerson() {
   const [firstName, lastName] = name.split(" ");
   const birthday = chance.birthday({ string: true });
   const email = chance.email();
-  const country = chance.country({ full: true });
+  const locale = chance.locale({ full: true });
   const profession = chance.profession({ rank: true });
 
-  return { firstName, lastName, birthday, email, country, profession };
+  return { firstName, lastName, birthday, email, locale, profession };
 }
 
 export function getPersonsRows(how) {
@@ -20,7 +20,7 @@ export function getPersonsRows(how) {
       lastName,
       birthday,
       email,
-      country,
+      locale,
       profession,
     } = getPerson();
     return {
@@ -28,7 +28,7 @@ export function getPersonsRows(how) {
       lastName: { value: lastName, type: "string" },
       birthday: { value: birthday, css: ["align-right"], type: "string" },
       email: { value: email, css: ["align-left"], type: "string" },
-      country: { value: country, css: ["align-left"], type: "string" },
+      locale: { value: locale, css: ["align-left"], type: "locale" },
       profession: { value: profession, css: ["align-left"], type: "string" },
       percent: { value: Math.trunc(Math.random() * 100), type: "percent" },
       __height: 40,
@@ -48,7 +48,7 @@ export function generatePersonData(how) {
         resizable: true,
       },
       { path: "email", label: "Mail", __width: 200, resizable: true },
-      { path: "country", label: "Pays", __width: 350, resizable: true },
+      { path: "locale", label: "Pays", __width: 350, resizable: true },
       { path: "percent", label: "percent", __width: 350, resizable: false },
       {
         path: "profession",
